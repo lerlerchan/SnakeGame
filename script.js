@@ -66,7 +66,7 @@ function drawGame() {
     }
 
     // Draw the snake
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "purple"; // Change snake color to purple
     for (let i = 0; i < snake.length; i++) {
         ctx.fillRect(snake[i].x, snake[i].y, box, box);
     }
